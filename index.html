@@ -22,27 +22,27 @@
   </head>
   <body>
     <header class="header">
-      <div class="container header-flex">
-        <nav class="nav-flex">
+      <div class="container header__flex">
+        <nav class="nav__flex">
           <a class="logo link" href="./">
-            Web<span class="logo-black">Studio</span>
+            Web<span class="logo--black">Studio</span>
           </a>
-          <ul class="header-list">
-            <li class="nav-list list">
-              <a class="nav-link curennt link" href="./">Студия</a>
+          <ul class="header__list">
+            <li class="nav__list list">
+              <a class="nav__link curennt link" href="./">Студия</a>
             </li>
-            <li class="nav-list list">
-              <a class="nav-link link" href="./portfolio.html">Портфолио</a>
+            <li class="nav__list list">
+              <a class="nav__link link" href="./portfolio.html">Портфолио</a>
             </li>
-            <li class="nav-list list">
-              <a class="nav-link link" href="">Контакты</a>
+            <li class="nav__list list">
+              <a class="nav__link link" href="">Контакты</a>
             </li>
           </ul>
         </nav>
 
-        <ul class="header-list">
-          <li class="logo-list list">
-            <a class="header-link link" href="mailto:info@devstudio.com">
+        <ul class="header__list">
+          <li class="logo__list list">
+            <a class="header__link link" href="mailto:info@devstudio.com">
               <svg class="header-icon-envelope link">
                 <use href="./images/icons.svg#envelope"></use>
               </svg>
@@ -50,8 +50,8 @@
             >
           </li>
 
-          <li class="logo-list list">
-            <a class="header-link link" href="tel:+380961111111">
+          <li class="logo__list list">
+            <a class="header__link link" href="tel:+380961111111">
               <svg class="header-icon-smartphone">
                 <use href="./images/icons.svg#smartphone"></use>
               </svg>
@@ -64,11 +64,11 @@
     <main>
       <section class="hero">
         <div class="container">
-          <h1 class="hero-text">
+          <h1 class="hero__text">
             Эффективные решения <br />
             для вашего бизнеса
           </h1>
-          <button class="hero-btn btn" type="button" data-modal-open>
+          <button class="hero__btn btn" type="button" data-modal-open>
             Заказать услугу
           </button>
         </div>
@@ -77,51 +77,51 @@
       <section class="feature">
         <div class="container">
           <h2 hidden>Особенности</h2>
-          <ul class="feature-ul">
-            <li class="feature-list list">
-              <div class="feature-icon-back">
-                <svg class="feature-list-icon">
+          <ul class="feature__ul">
+            <li class="feature__list list">
+              <div class="feature__back">
+                <svg class="feature__icon">
                   <use href="./images/icons.svg#antenna"></use>
                 </svg>
               </div>
-              <h3 class="feature-header">Внимание к деталям</h3>
-              <p class="feature-text">
+              <h3 class="feature__header">Внимание к деталям</h3>
+              <p class="feature__text">
                 Идейные соображения, а также начало повседневной работы по
                 формированию позиции.
               </p>
             </li>
-            <li class="feature-list list">
-              <div class="feature-icon-back">
-                <svg class="feature-list-icon">
+            <li class="feature__list list">
+              <div class="feature__back">
+                <svg class="feature__icon">
                   <use href="./images/icons.svg#clock"></use>
                 </svg>
               </div>
-              <h3 class="feature-header">Пунктуальность</h3>
-              <p class="feature-text">
+              <h3 class="feature__header">Пунктуальность</h3>
+              <p class="feature__text">
                 Задача организации, в особенности же рамки и место обучения
                 кадров влечет за собой.
               </p>
             </li>
-            <li class="feature-list list">
-              <div class="feature-icon-back">
-                <svg class="feature-list-icon">
+            <li class="feature__list list">
+              <div class="feature__back">
+                <svg class="feature__icon">
                   <use href="./images/icons.svg#diagram"></use>
                 </svg>
               </div>
-              <h3 class="feature-header">Планирование</h3>
-              <p class="feature-text">
+              <h3 class="feature__header">Планирование</h3>
+              <p class="feature__text">
                 Равным образом консультация с широким активом в значительной
                 степени обуславливает.
               </p>
             </li>
-            <li class="feature-list list">
-              <div class="feature-icon-back">
-                <svg class="feature-list-icon">
+            <li class="feature__list list">
+              <div class="feature__back">
+                <svg class="feature__icon">
                   <use href="./images/icons.svg#astronaut"></use>
                 </svg>
               </div>
-              <h3 class="feature-header">Современные технологии</h3>
-              <p class="feature-text">
+              <h3 class="feature__header">Современные технологии</h3>
+              <p class="feature__text">
                 Значимость этих проблем настолько очевидна, что реализация
                 плановых заданий.
               </p>
@@ -131,45 +131,42 @@
       </section>
       <section class="services">
         <div class="container">
-          <h2 class="services-header">Чем мы занимаемся</h2>
-          <ul class="services-ul">
-            <li class="services-list list">
+          <h2 class="section__header">Чем мы занимаемся</h2>
+          <ul class="services__ul">
+            <li class="services__list list">
               <img
-                class="services-img"
                 src="./images/what-we-do-img1.jpg"
                 alt="Написание программного кода для сайта"
                 width="370"
                 height="294"
               />
-              <p class="services-text">Десктопные приложения</p>
+              <p class="services__text">Десктопные приложения</p>
             </li>
 
-            <li class="services-list list">
+            <li class="services__list list">
               <img
-                class="services-img"
                 src="./images/what-we-do-img2.jpg"
                 alt="Разработка дизайна мобильного приложения"
                 width="370"
                 height="294"
               />
-              <p class="services-text">Мобильные приложения</p>
+              <p class="services__text">Мобильные приложения</p>
             </li>
-            <li class="services-list list">
+            <li class="services__list list">
               <img
-                class="services-img"
                 src="./images/what-we-do-img3.jpg"
                 alt="Подбор цветового решения"
                 width="370"
                 height="294"
               />
-              <p class="services-text">Дизайнерские решения</p>
+              <p class="services__text">Дизайнерские решения</p>
             </li>
           </ul>
         </div>
       </section>
       <section class="team">
         <div class="container">
-          <h2 class="team-header">Наша команда</h2>
+          <h2 class="section__header">Наша команда</h2>
           <ul class="team-ul">
             <li class="team-list list">
               <img
@@ -396,7 +393,7 @@
       </section>
       <section class="client">
         <div class="container">
-          <h2 class="client-header">Постоянные клиенты</h2>
+          <h2 class="section__header">Постоянные клиенты</h2>
           <ul class="client-ul list">
             <li class="client-list">
               <a class="client-link" href="./">

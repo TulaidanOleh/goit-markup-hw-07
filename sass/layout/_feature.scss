@@ -1,0 +1,49 @@
+.feature {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.feature__icon {
+  width: 70px;
+  height: 70px;
+}
+
+.feature__back {
+  width: 270px;
+  height: 120px;
+  background-color: var(--color-background-team);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.feature__ul {
+  display: flex;
+}
+
+.feature__list {
+  margin-right: 30px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.feature__header {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--color-taxt-header);
+  letter-spacing: 0.03em;
+
+  margin-bottom: 10px;
+}
+
+.feature__text {
+  line-height: 1.71;
+  color: var(--color-taxt-basic);
+  letter-spacing: 0.03em;
+}

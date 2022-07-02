@@ -30,7 +30,7 @@ address {
 .footer__flex {
   display: flex;
   align-items: baseline;
-  outline: none;
+  outline: transparent;
 }
 
 .address__flex {
@@ -52,7 +52,7 @@ address {
 }
 
 .footer__wrap {
-  margin-right: 93px;
+  margin-right: auto;
 }
 
 .footer__form {
